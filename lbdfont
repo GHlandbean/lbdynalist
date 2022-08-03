@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'AaHJSansNormal';
+    src: local('AaHapjeongSansNormal'), url('.../AaHapjeongSansNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
