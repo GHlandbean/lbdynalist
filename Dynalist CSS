@@ -1,0 +1,82 @@
+* font-face { font-family: AaHJNormal; src: local("AaHapjeongSansNormal"), url(AaHapjeongSansnormal.woff); }
+
+span.hljs { color: #50A14F; }
+span.hljs:first-letter { color: #383a42; font-weight:bold; font-size:105%; }
+.is-desktop .is-smallFont .node-line { line-height: 24px; }
+.is-desktop .is-smallFont .node-inline-code { padding: 2px 5px; margin: 0 0 2px 0; font-size: 100%; line-height: 130%; }
+.is-desktop .is-smallFont .node-multiline-code { margin: 0 0 2px 0; font-size: 100%; line-height: 130%; }
+.is-mobile .is-smallFont .node-line { line-height: 24px; }
+.is-mobile .is-smallFont .node-inline-code { padding: 2px 5px; margin: 0 0 2px 0; font-size: 100%; line-height: 130%; }
+.is-mobile .is-smallFont .node-multiline-code { margin: 0 0 2px 0; font-size: 100%; line-height: 130%; } 
+
+.Node { border-top: 1px; border-bottom: 1px; } 
+
+/* 헤딩 스타일 */
+.is-smallFont .Node-self.is-heading .Node-contentContainer .Node-renderedContent { font-size: 32px;
+}
+.is-smallFont .Node-self.is-heading1 .Node-contentContainer .Node-renderedContent { font-size: 26px;
+}
+.is-smallFont .Node-self.is-heading2 .Node-contentContainer .Node-renderedContent { font-size: 22px; line-height: 130%;
+}
+.is-smallFont .Node-self.is-heading3 .Node-contentContainer .Node-renderedContent { font-size: 18px;
+} 
+
+/* 컬러 라벨 */
+/* red */
+.set-color-label[data-color="1"],
+.Node-contentContainer.mod-color-label-1 {
+border-radius: 0;
+padding-left: 6px !important;
+border-left: solid #F02C03;
+background-color: #FFDBDB;
+max-width: 70%;
+} 
+
+/* orange */
+.set-color-label[data-color="2"],
+.Node-contentContainer.mod-color-label-2 {
+padding-left: 6px !important;
+border-left: solid #FF950C;
+background-color: #FFEEE2;
+border-radius: 0;
+max-width: 70%;
+} 
+
+/* yellow */
+.set-color-label[data-color="3"],
+.Node-contentContainer.mod-color-label-3 {
+padding-left: 6px !important;
+background-color: #FCFADE
+border-left: solid #FEDC03;
+border-radius: 0;
+max-width: 70%;
+} 
+
+/* green */
+.set-color-label[data-color="4"],
+.Node-contentContainer.mod-color-label-4 {
+padding-left: 6px !important;
+border-left: solid #7CDA01;
+background-color: #E2FCE6;
+border-radius: 0;
+max-width: 70%;
+} 
+
+/* blue */
+.set-color-label[data-color="5"],
+.Node-contentContainer.mod-color-label-5 {
+padding-left: 6px !important;
+border-left: solid #0D8DFF
+background-color: #DFF2FD;
+border-radius: 0;
+max-width: 70%;
+} 
+
+/* purple */
+.set-color-label[data-color="6"],
+.Node-contentContainer.mod-color-label-6 {
+padding-left: 6px !important;
+border-left: solid #B02FF7;
+background-color: #E3E3FF;
+border-radius: 0;
+max-width: 70%; }
