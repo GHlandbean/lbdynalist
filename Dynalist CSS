@@ -1,4 +1,4 @@
-* font-face { font-family: AaHJNormal; src: local("AaHapjeongSansNormal"), url(AaHapjeongSansnormal.woff); }
+* font-face { font-family: AaHJNormal; src: url("@assets/fonts/AaHapjeongSansNormal") format("woff"); }
 
 span.hljs { color: #50A14F; }
 span.hljs:first-letter { color: #383a42; font-weight:bold; font-size:105%; }
